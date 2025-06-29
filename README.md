@@ -1,50 +1,72 @@
-# Welcome to your Expo app 👋
+# Personal Productivity App (GTD-Based)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a basic **Personal Productivity App** built using **React Native with Expo**. It follows the principles of the **"Getting Things Done" (GTD)** methodology and helps users to:
 
-## Get started
+- Capture tasks in an inbox
+- Organize tasks into projects and contexts
+- Engage with filtered Next Actions
 
-1. Install dependencies
+--
 
-   ```bash
-   npm install
-   ```
+###  Capture
+- Add any new task or to-do item to the **Inbox**.
 
-2. Start the app
+###  Process & Organize
+- Move tasks from Inbox to **Projects** or mark them as **Next Actions**.
+- Assign **Contexts** like `@home`, `@computer`, or `@errands`.
+- Create multiple Projects.
 
-   ```bash
-   npx expo start
-   ```
+###  Engage
+- View all Next Actions.
+- Filter tasks by **Project** or **Context**.
+- Mark tasks as **Complete**.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🧱 Tech Stack
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- React Native
+- Expo
+- Expo Router (for navigation)
+- Context API (for global state)
+- React Native Picker
+- React Native Switch
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🛠️ Setup Instructions
+
+### 1. Clone this repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/your-username/personal-productivity-app.git
+cd personal-productivity-app
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. Install Dependencies
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### 3. Install Picker Dependency
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npm install @react-native-picker/picker
+```
 
-## Join the community
+### 4. Run the App
 
-Join our community of developers creating universal apps.
+```bash
+npx expo start
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+You can scan the QR code on your mobile device (with Expo Go app) or run in web preview.
+
+---
+
+## 📬 Contact
+
+**Anshika Singh**  
+📧 anshika@example.com  
+🔗 [GitHub Profile](https://github.com/Anshi001)
